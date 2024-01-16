@@ -10,6 +10,8 @@
     const $prNameTxt = $('#prName');
 
     const taskSplitRegExp = /(\D+|\s+)(\d+)(:)(.+)/i;
+    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%"];
+    const charSeparator = "-";
 
     $actionButton.click(function (evt) {
         evt.preventDefault();
@@ -44,8 +46,12 @@
 
         console.log(`Task id ->${taskId}, task text ->${taskText}`);
 
-        const normalized = taskText.replaceAll(' ', '-')
+        var normalized = taskText.replaceAll(' ', charSeparator)
             .toLowerCase();
+
+        unwantedChars.forEach(charToRemove => {
+            normalized = normalized.replaceAll(charToRemove, charSeparator);
+        });
         const branchNameResult = `feature/${taskId}-${normalized}`;
         console.log(normalized);
         console.log(branchNameResult);
