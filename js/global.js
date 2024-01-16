@@ -10,7 +10,7 @@
     const $prNameTxt = $('#prName');
 
     const taskSplitRegExp = /(\D+|\s+)(\d+)(:)(.+)/i;
-    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%"];
+    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%", "/", "\\"];
     const charSeparator = "-";
 
     $actionButton.click(function (evt) {
