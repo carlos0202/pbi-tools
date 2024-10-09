@@ -1,0 +1,29 @@
+<div class="accordion-item">
+    <h2 class="accordion-header" id="heading{{regionIndex}}">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse{{regionIndex}}" aria-expanded="true" aria-controls="collapseOne">
+            {{region}}
+        </button>
+    </h2>
+    <div id="collapse{{regionIndex}}" class="accordion-collapse collapse show" aria-labelledby="heading{{regionIndex}}"
+        data-bs-parent="{{containerId}}">
+        <div class="accordion-body">
+            <table class="table table-hover" id="{{tableId}}">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Specific Location</th>
+                        <th scope="col">Last Challenged</th>
+                        <th scope="col">Cooldown Time</th>
+                        <th scope="col">Recommended Team</th>
+                        <th scope="col">Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{{bossesList}}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

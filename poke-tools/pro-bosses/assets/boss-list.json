@@ -1,0 +1,70 @@
+[
+    {
+        "region": "Kanto",
+        "bossList": [
+            {
+                "index": 1,
+                "name": "Professor Oak",
+                "city": "Cinnabar Island",
+                "specificLocation": "Cinnabar Island Lab Room 2",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "This boss might use defog to clear entry hazards"
+            },
+            {
+                "index": 4,
+                "name": "Officer Shamac",
+                "city": "Pewter City",
+                "specificLocation": "Pewter Jail",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "VS Mega evolutions Team",
+                "notes": "This boss starts with Mega Swampert as Lead"
+            }
+        ]
+    },
+    {
+        "region": "Johto",
+        "bossList": [
+            {
+                "index": 1,
+                "name": "Battle Bot",
+                "city": "Olivine City",
+                "specificLocation": "Olivine Docks > Dock Island House 2",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Requires active membership"
+            }
+        ]
+    },
+    {
+        "region": "Hoenn",
+        "bossList": [
+            {
+                "index": 2,
+                "name": "Morty",
+                "city": "Lilycove City",
+                "specificLocation": "Route 122 > Mt Pyre 4F",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "VS Mega evolutions Team"
+            }
+        ]
+    },
+    {
+        "region": "Sinnoh",
+        "bossList": [
+            {
+                "index": 1,
+                "name": "Saphirr",
+                "city": "Survival Area",
+                "specificLocation": "Route 227 (Requires Fire Pokemon In Party)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team"
+            }
+        ]
+    }
+]
