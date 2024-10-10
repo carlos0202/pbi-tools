@@ -13,6 +13,26 @@
                 "notes": "This boss might use defog to clear entry hazards"
             },
             {
+                "index": 2,
+                "name": "Terminator",
+                "city": "Mt Silver",
+                "specificLocation": "Mt Silver Moltres Chamber",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 3,
+                "name": "Erika",
+                "city": "Viridian Forest",
+                "specificLocation": "Viridian Maze (North)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Volcarona Boss Team",
+                "notes": "TBD"
+            },
+            {
                 "index": 4,
                 "name": "Officer Shamac",
                 "city": "Pewter City",
@@ -21,6 +41,176 @@
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "VS Mega evolutions Team",
                 "notes": "This boss starts with Mega Swampert as Lead"
+            },
+            {
+                "index": 5,
+                "name": "George",
+                "city": "Pewter City",
+                "specificLocation": "Pewter Jail",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 6,
+                "name": "Naero",
+                "city": "Cerulean City",
+                "specificLocation": "Cerulean Cave B1F",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 7,
+                "name": "Entei Guardian",
+                "city": "Cerulean City",
+                "specificLocation": "Route 25 > Route 25 Cave",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 8,
+                "name": "Koichi",
+                "city": "Saffron City",
+                "specificLocation": "Saffron Dojo",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Multiple focus sash enemies. Entry Hazard is a must"
+            },
+            {
+                "index": 9,
+                "name": "Chuck",
+                "city": "Saffron City",
+                "specificLocation": "Saffron Gold's Gym",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "No Guard opener"
+            },
+            {
+                "index": 10,
+                "name": "Nikola",
+                "city": "Saffron City",
+                "specificLocation": "Unknown Place",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 11,
+                "name": "Urahara",
+                "city": "Lavender Town",
+                "specificLocation": "Pokemon Tower 3F (East)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Requires full level 100 team"
+            },
+            {
+                "index": 12,
+                "name": "The Pumpking King",
+                "city": "Lavender Town",
+                "specificLocation": "Lavender Town Graveyard",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Defiant opener"
+            },
+            {
+                "index": 13,
+                "name": "Jessie & James",
+                "city": "Celadon City",
+                "specificLocation": "Celadon City West (Must walk behind buildings to reach them)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Requires pikachu in party"
+            },
+            {
+                "index": 14,
+                "name": "Xylos",
+                "city": "Vermilion City",
+                "specificLocation": "Vermilion Pokemon Club",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 15,
+                "name": "Brock",
+                "city": "Vermilion City",
+                "specificLocation": "Diglett's Cave",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "VS Mega evolutions Team",
+                "notes": "Mega Aerodactyl lead"
+            },
+            {
+                "index": 16,
+                "name": "Officer Jenny",
+                "city": "Vermilion City",
+                "specificLocation": "Vermilion Docks > Pinkan Island Lighthouse 2F",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 17,
+                "name": "Klohver",
+                "city": "Vermilion City",
+                "specificLocation": "Vermilion Docks > Pinkan Island Meadow",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 18,
+                "name": "Prehax",
+                "city": "Vermilion City",
+                "specificLocation": "Vermilion Docks > Munchlax Resort",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "2 Mons Tank Team",
+                "notes": "Fighting type moves banned. 2 Mons max in party"
+            },
+            {
+                "index": 19,
+                "name": "Cie",
+                "city": "Vermilion City",
+                "specificLocation": "Vermilion Docks > Munchlax Resort",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Requires giving 3 rare candies to snorlax to reach boss location"
+            },
+            {
+                "index": 20,
+                "name": "Shary & Shaui",
+                "city": "Vermilion City",
+                "specificLocation": "Vermilion Docks > Love Island House 1",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 21,
+                "name": "Misterious Cultist",
+                "city": "Vermilion City",
+                "specificLocation": "Vermilion Docks > Guild Island",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
             }
         ]
     },
@@ -36,6 +226,116 @@
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "Requires active membership"
+            },
+            {
+                "index": 2,
+                "name": "Bugsy",
+                "city": "Olivine City",
+                "specificLocation": "Olivine Docks > Dock Island > Amazon Forest",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Switcheroo lagging tail doesn't work here"
+            },
+            {
+                "index": 3,
+                "name": "Misty",
+                "city": "Route 41 (Surf south of Olivine City)",
+                "specificLocation": "Routhe 41",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Competitive Milotic Lead"
+            },
+            {
+                "index": 4,
+                "name": "Thor",
+                "city": "Route 41 (Surf south of Olivine City)",
+                "specificLocation": "Whirl Island B4F (Enter via North-Eastern Island)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Beware of static Zapdos"
+            },
+            {
+                "index": 5,
+                "name": "Bruno",
+                "city": "Route 42 (Mt. Mortar Eastern entrance)",
+                "specificLocation": "Mt. Mortar Lower Cave",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "VS Mega evolutions Team",
+                "notes": "Mega Steelix lead"
+            },
+            {
+                "index": 6,
+                "name": "Suicune Guardian",
+                "city": "Lake of Rage",
+                "specificLocation": "Secluded Lake (special entrance westside before lake of rage entrance)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 7,
+                "name": "Lorelei",
+                "city": "Ice Path",
+                "specificLocation": "Ice Path B2F (Western wall)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 8,
+                "name": "Lance",
+                "city": "Blackthorn City",
+                "specificLocation": "Dragons Shrine",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 9,
+                "name": "Sage",
+                "city": "Violet City",
+                "specificLocation": "Sprout Tower 3F",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 10,
+                "name": "Professor Elm",
+                "city": "Ruins of Alph",
+                "specificLocation": "Research Center",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 11,
+                "name": "Pewdie & Diepy",
+                "city": "Goldenrod City",
+                "specificLocation": "Goldenrod Gaming Corner",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 13,
+                "name": "Neroli",
+                "city": "Ilex Forest",
+                "specificLocation": "Ilex Forest",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
             }
         ]
     },
