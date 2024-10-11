@@ -114,7 +114,7 @@
             },
             {
                 "index": 12,
-                "name": "The Pumpking King",
+                "name": "The Pumpkin King",
                 "city": "Lavender Town",
                 "specificLocation": "Lavender Town Graveyard",
                 "lastChallenged": "10/08/2024",
@@ -124,7 +124,7 @@
             },
             {
                 "index": 13,
-                "name": "Jessie & James",
+                "name": "Jessie and James",
                 "city": "Celadon City",
                 "specificLocation": "Celadon City West (Must walk behind buildings to reach them)",
                 "lastChallenged": "10/08/2024",
@@ -194,7 +194,7 @@
             },
             {
                 "index": 20,
-                "name": "Shary & Shaui",
+                "name": "Shary and Shaui",
                 "city": "Vermilion City",
                 "specificLocation": "Vermilion Docks > Love Island House 1",
                 "lastChallenged": "10/08/2024",
@@ -204,7 +204,7 @@
             },
             {
                 "index": 21,
-                "name": "Misterious Cultist",
+                "name": "Mysterious Cultist",
                 "city": "Vermilion City",
                 "specificLocation": "Vermilion Docks > Guild Island",
                 "lastChallenged": "10/08/2024",
@@ -319,7 +319,7 @@
             },
             {
                 "index": 11,
-                "name": "Pewdie & Diepy",
+                "name": "Pewdie and Diepy",
                 "city": "Goldenrod City",
                 "specificLocation": "Goldenrod Gaming Corner",
                 "lastChallenged": "10/08/2024",
@@ -343,13 +343,94 @@
         "region": "Hoenn",
         "bossList": [
             {
+                "index": 1,
+                "name": "Tigerous",
+                "city": "Lilycove City",
+                "specificLocation": "Eumi Island > Eumi Island Theme Park 2 (via Lilicove City Docks)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "VS Mega evolutions Team",
+                "notes": "Event boss"
+            },
+            {
                 "index": 2,
                 "name": "Morty",
                 "city": "Lilycove City",
                 "specificLocation": "Route 122 > Mt Pyre 4F",
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
-                "recommendedTeam": "VS Mega evolutions Team"
+                "recommendedTeam": "VS Mega evolutions Team",
+                "notes": "Mega Gengar lead"
+            },
+            {
+                "index": 3,
+                "name": "Toothless",
+                "city": "Slateport City",
+                "specificLocation": "Route 108 > Abandoned Ship B1F Room 1",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Starmie focus sash present. Entry Hazard or substitute sweeper a must"
+            },
+            {
+                "index": 4,
+                "name": "Raikou Guardian",
+                "city": "Route 110",
+                "specificLocation": "Route 110 > Secret Base Alpha",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 5,
+                "name": "Lt. Surge",
+                "city": "Route 110",
+                "specificLocation": "Route 110 > New Mauville",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "This boss might use defog to clear entry hazards"
+            },
+            {
+                "index": 6,
+                "name": "Professor Birch",
+                "city": "Verdanturf Town",
+                "specificLocation": "Vendarturf Town House 2",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Pure Power Choice Band Medicham lead (autokills by recoil)"
+            },
+            {
+                "index": 7,
+                "name": "Naruto Fanboy",
+                "city": "Route 111",
+                "specificLocation": "Desert Ruins",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Claydol might explode"
+            },
+            {
+                "index": 8,
+                "name": "Gingery Jones",
+                "city": "Route 112",
+                "specificLocation": "Feral Site (Fiery Path)",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Try to keep substitute alive. Rocky helmet users present"
+            },
+            {
+                "index": 9,
+                "name": "Steven",
+                "city": "Lavaridge Town",
+                "specificLocation": "Valley Of Steel > Underground",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Steven Boss Team",
+                "notes": "2 steel pokemons and a pokemon with Iron defense move needed"
             }
         ]
     },
@@ -363,7 +444,88 @@
                 "specificLocation": "Route 227 (Requires Fire Pokemon In Party)",
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
-                "recommendedTeam": "Default Boss Team"
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Requires fire pokemon on team"
+            },
+            {
+                "index": 2,
+                "name": "Professor Rowan",
+                "city": "Jubilife City",
+                "specificLocation": "Jubilife City School",
+                "lastChallenged": "10/08/2024",
+                "cooldownTime": "11 days, 5:00:02",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 3,
+                "name": "Spectify",
+                "city": "Sandgem Town",
+                "specificLocation": "Sandgem Towen House",
+                "lastChallenged": "-",
+                "cooldownTime": "-",
+                "recommendedTeam": "VS Mega evolutions Team",
+                "notes": "Mega Salamence lead (with stat boosting moves)"
+            },
+            {
+                "index": 4,
+                "name": "Link",
+                "city": "Twinleaf Town",
+                "specificLocation": "Twinleaf Town (House 2)",
+                "lastChallenged": "-",
+                "cooldownTime": "-",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
+            },
+            {
+                "index": 5,
+                "name": "Medusa and Eldir",
+                "city": "Rout 203",
+                "specificLocation": "Legends Cave",
+                "lastChallenged": "-",
+                "cooldownTime": "-",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Eldir has a Magic Guard Focus Sash Alakazam"
+            },
+            {
+                "index": 6,
+                "name": "Letrix",
+                "city": "Valley Windworks",
+                "specificLocation": "Valley Windworks (East of Floraroma Town)",
+                "lastChallenged": "-",
+                "cooldownTime": "-",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Focus Sash Excadrill"
+            },
+            {
+                "index": 7,
+                "name": "Maribela",
+                "city": "Floraroma Town",
+                "specificLocation": "Floraroma Meadow (North Entrance)",
+                "lastChallenged": "-",
+                "cooldownTime": "-",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Requires full level 100 team"
+            },
+            {
+                "index": 8,
+                "name": "Ash Westbrook",
+                "city": "Mt. Coronet",
+                "specificLocation": "Spear Pillar",
+                "lastChallenged": "-",
+                "cooldownTime": "-",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "Dialga and Reshiram have Roar available"
+            },
+            {
+                "index": 9,
+                "name": "Logan",
+                "city": "Route 210 North",
+                "specificLocation": "Cave Of Justice",
+                "lastChallenged": "-",
+                "cooldownTime": "-",
+                "recommendedTeam": "Default Boss Team",
+                "notes": "TBD"
             }
         ]
     }
