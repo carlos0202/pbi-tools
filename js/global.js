@@ -10,7 +10,8 @@
     const $prNameTxt = $('#prName');
 
     const taskSplitRegExp = /(\D+|\s+)(\d+)(:)(.+)/i;
-    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%", "/", "\\"];
+    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%", "/", "\\", "'", "_"];
+    const finalCleanupRegExp = /(-)+/g;
     const charSeparator = "-";
 
     $actionButton.click(function (evt) {
@@ -52,14 +53,17 @@
         unwantedChars.forEach(charToRemove => {
             normalized = normalized.replaceAll(charToRemove, charSeparator);
         });
-        const branchNameResult = `feature/${taskId}-${normalized}`;
+        var branchNameResult = `feature/${taskId}-${normalized}`;
         console.log(normalized);
         console.log(branchNameResult);
 
+        branchNameResult = branchNameResult.replace(finalCleanupRegExp, charSeparator);
+        console.log(branchNameResult);
         
-        const prTextResult = !isPrInput 
+        var prTextResult = !isPrInput 
             ? `${taskId} | ${prText}`
             : prText;
+        prTextResult = prTextResult.replace(finalCleanupRegExp, charSeparator);
 
         console.log(`Task id ->${taskId}, pr text ->${prTextResult}`);
         console.log(prTextResult);
