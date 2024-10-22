@@ -4,6 +4,7 @@
     const $actionButton = $('#processInputBtn');
     const $copyBranchName = $('#copyBranchNameToClipboardBtn');
     const $copyPrName = $('#copyPrNameToClipboardBtn');
+    const $clearButton = $('#clearBtn');
 
     const $inputText = $('#taskInput');
     const $branchNameTxt = $('#branchName');
@@ -13,6 +14,7 @@
     const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%", "/", "\\", "'", "_"];
     const finalCleanupRegExp = /(-)+/g;
     const charSeparator = "-";
+    const branchNameLength = 80;
 
     $actionButton.click(function (evt) {
         evt.preventDefault();
@@ -26,10 +28,10 @@
         var inputText = $inputText.val();
         
         var capturedGroups = inputText.match(taskSplitRegExp);
-        const taskType = capturedGroups[1].toLowerCase().trim();
+        var taskType = capturedGroups[1].toLowerCase().trim();
         var taskText = capturedGroups[4].trim();
         console.log(capturedGroups);
-        const isPrInput = taskType == 'pull request';
+        var isPrInput = taskType == 'pull request';
         var taskId = !isPrInput 
             ? capturedGroups[2]
             : taskText.substring(0, taskText.indexOf('|')).trim();
@@ -68,7 +70,7 @@
         console.log(`Task id ->${taskId}, pr text ->${prTextResult}`);
         console.log(prTextResult);
         
-        $branchNameTxt.val(branchNameResult);
+        $branchNameTxt.val(branchNameResult.slice(0, branchNameLength));
         $prNameTxt.val(prTextResult);
     });
 
@@ -82,6 +84,17 @@
         copyToClipboard($prNameTxt);
     });
 
+    $clearButton.click(function(evt){
+        evt.preventDefault();
+
+        clearTextFields();
+    });
+
+    function clearTextFields(){
+        $inputText.val('');
+        $branchNameTxt.val('');
+        $prNameTxt.val('');
+    }
 })(jQuery);
 
 function copyToClipboard($textField) {

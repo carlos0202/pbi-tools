@@ -1,4 +1,4 @@
-Set-Location -Path C:\Users\carlos.gonzalez\Desktop\branch-name-creator
-http-server -o
+Set-Location -Path $PSScriptRoot
+http-server
 
 write-host "Done !"
