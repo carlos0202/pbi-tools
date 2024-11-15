@@ -10,7 +10,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "This boss might use defog to clear entry hazards"
+                "notes": "This boss might use defog to clear entry hazards",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Professor_Oak_(boss)",
+                "bossTeam": "kanto-1.png"
             },
             {
                 "index": 2,
@@ -20,7 +22,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Terminator_(boss)",
+                "bossTeam": "kanto-2.png"
             },
             {
                 "index": 3,
@@ -30,7 +34,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Volcarona Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 4,
@@ -40,7 +46,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "VS Mega evolutions Team",
-                "notes": "This boss starts with Mega Swampert as Lead"
+                "notes": "This boss starts with Mega Swampert as Lead",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Officer_Shamac_(boss)",
+                "bossTeam": "kanto-4.png"
             },
             {
                 "index": 5,
@@ -50,7 +58,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=George_(boss)",
+                "bossTeam": "kanto-5.png"
             },
             {
                 "index": 6,
@@ -60,7 +70,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Naero_(boss)",
+                "bossTeam": "kanto-6.png"
             },
             {
                 "index": 7,
@@ -70,7 +82,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Guardian_(Entei)_(boss)",
+                "bossTeam": "kanto-7.png"
             },
             {
                 "index": 8,
@@ -80,7 +94,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Multiple focus sash enemies. Entry Hazard is a must"
+                "notes": "Multiple focus sash enemies. Entry Hazard is a must",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Koichi_(boss)",
+                "bossTeam": "kanto-8.png"
             },
             {
                 "index": 9,
@@ -90,7 +106,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "No Guard opener"
+                "notes": "No Guard opener",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Chuck_(boss)",
+                "bossTeam": "kanto-9.png"
             },
             {
                 "index": 10,
@@ -100,7 +118,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Nikola_(boss)",
+                "bossTeam": "kanto-10.png"
             },
             {
                 "index": 11,
@@ -110,7 +130,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Requires full level 100 team"
+                "notes": "Requires full level 100 team",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Urahara_(boss)",
+                "bossTeam": "kanto-11.png"
             },
             {
                 "index": 12,
@@ -120,7 +142,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Defiant opener"
+                "notes": "Defiant opener",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=The_Pumpkin_King_(boss)",
+                "bossTeam": "kanto-12.png"
             },
             {
                 "index": 13,
@@ -130,7 +154,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Requires pikachu in party"
+                "notes": "Requires pikachu in party",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Jessie_%26_James_(boss)",
+                "bossTeam": "kanto-13.png"
             },
             {
                 "index": 14,
@@ -140,7 +166,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Xylos_(boss)",
+                "bossTeam": "kanto-14.png"
             },
             {
                 "index": 15,
@@ -150,7 +178,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "VS Mega evolutions Team",
-                "notes": "Mega Aerodactyl lead"
+                "notes": "Mega Aerodactyl lead",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Brock_(boss)",
+                "bossTeam": "kanto-15.png"
             },
             {
                 "index": 16,
@@ -160,7 +190,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Officer_Jenny_(boss)",
+                "bossTeam": "kanto-16.png"
             },
             {
                 "index": 17,
@@ -170,7 +202,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Klohver_(boss)",
+                "bossTeam": "kanto-17.png"
             },
             {
                 "index": 18,
@@ -180,7 +214,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "2 Mons Tank Team",
-                "notes": "Fighting type moves banned. 2 Mons max in party"
+                "notes": "Fighting type moves banned. 2 Mons max in party",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Prehax_(boss)",
+                "bossTeam": "kanto-18.png"
             },
             {
                 "index": 19,
@@ -190,7 +226,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Requires giving 3 rare candies to snorlax to reach boss location"
+                "notes": "Requires giving 3 rare candies to snorlax to reach boss location",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Cie_(boss)",
+                "bossTeam": "kanto-19.png"
             },
             {
                 "index": 20,
@@ -200,7 +238,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Shary_%26_Shaui_(boss)",
+                "bossTeam": "kanto-20.png"
             },
             {
                 "index": 21,
@@ -210,7 +250,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Mysterious_Cultist_(boss)",
+                "bossTeam": "kanto-21.png"
             }
         ]
     },
@@ -225,7 +267,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Requires active membership"
+                "notes": "Requires active membership",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "johto-1.png"
             },
             {
                 "index": 2,
@@ -235,7 +279,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Switcheroo lagging tail doesn't work here"
+                "notes": "Switcheroo lagging tail doesn't work here",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 3,
@@ -245,7 +291,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Competitive Milotic Lead"
+                "notes": "Competitive Milotic Lead",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 4,
@@ -255,7 +303,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Beware of static Zapdos"
+                "notes": "Beware of static Zapdos",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 5,
@@ -265,7 +315,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "VS Mega evolutions Team",
-                "notes": "Mega Steelix lead"
+                "notes": "Mega Steelix lead",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 6,
@@ -275,7 +327,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 7,
@@ -285,7 +339,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 8,
@@ -295,7 +351,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 9,
@@ -305,7 +363,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 10,
@@ -315,7 +375,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 11,
@@ -325,7 +387,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "Pewdie has a Magic Guard Focus Sash Alakazam",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 13,
@@ -335,7 +399,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             }
         ]
     },
@@ -350,7 +416,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "VS Mega evolutions Team",
-                "notes": "Event boss"
+                "notes": "Event boss",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 2,
@@ -360,7 +428,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "VS Mega evolutions Team",
-                "notes": "Mega Gengar lead"
+                "notes": "Mega Gengar lead",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 3,
@@ -370,7 +440,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Starmie focus sash present. Entry Hazard or substitute sweeper a must"
+                "notes": "Starmie focus sash present. Entry Hazard or substitute sweeper a must",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 4,
@@ -380,7 +452,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 5,
@@ -390,7 +464,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "This boss might use defog to clear entry hazards"
+                "notes": "This boss might use defog to clear entry hazards",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 6,
@@ -400,7 +476,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Pure Power Choice Band Medicham lead (autokills by recoil)"
+                "notes": "Pure Power Choice Band Medicham lead (autokills by recoil)",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 7,
@@ -410,7 +488,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Claydol might explode"
+                "notes": "Claydol might explode",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 8,
@@ -420,7 +500,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Try to keep substitute alive. Rocky helmet users present"
+                "notes": "Try to keep substitute alive. Rocky helmet users present",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 9,
@@ -430,7 +512,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Steven Boss Team",
-                "notes": "2 steel pokemons and a pokemon with Iron defense move needed"
+                "notes": "2 steel pokemons and a pokemon with Iron defense move needed",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             }
         ]
     },
@@ -445,7 +529,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Requires fire pokemon on team"
+                "notes": "Requires fire pokemon on team",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 2,
@@ -455,7 +541,9 @@
                 "lastChallenged": "10/08/2024",
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 3,
@@ -465,7 +553,9 @@
                 "lastChallenged": "-",
                 "cooldownTime": "-",
                 "recommendedTeam": "VS Mega evolutions Team",
-                "notes": "Mega Salamence lead (with stat boosting moves)"
+                "notes": "Mega Salamence lead (with stat boosting moves)",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 4,
@@ -475,7 +565,9 @@
                 "lastChallenged": "-",
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 5,
@@ -485,7 +577,9 @@
                 "lastChallenged": "-",
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Eldir has a Magic Guard Focus Sash Alakazam"
+                "notes": "Eldir has a Magic Guard Focus Sash Alakazam",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 6,
@@ -495,7 +589,9 @@
                 "lastChallenged": "-",
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Focus Sash Excadrill"
+                "notes": "Focus Sash Excadrill",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 7,
@@ -505,7 +601,9 @@
                 "lastChallenged": "-",
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Requires full level 100 team"
+                "notes": "Requires full level 100 team",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 8,
@@ -515,7 +613,9 @@
                 "lastChallenged": "-",
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "Dialga and Reshiram have Roar available"
+                "notes": "Dialga and Reshiram have Roar available",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             },
             {
                 "index": 9,
@@ -525,7 +625,9 @@
                 "lastChallenged": "-",
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
-                "notes": "TBD"
+                "notes": "TBD",
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
+                "bossTeam": "kanto-3.png"
             }
         ]
     }

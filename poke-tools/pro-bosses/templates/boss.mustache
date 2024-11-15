@@ -1,5 +1,19 @@
 <tr id="{{bossId}}" class="row-{{index}} boss-row">
-    <td class="name">{{name}}</td>
+    <td class="name">
+        <a  tabindex="0"
+            href="{{bossUrl}}"
+            target="_blank" 
+            data-bs-content="/assets/images/{{bossTeam}}">
+            {{name}}</i>
+        </a>
+        &nbsp;
+        <button type="button" 
+            class="btn btn-link m-0 p-0" 
+            data-bs-toggle="modal" 
+            data-bs-target="#bossTeamModal"        
+            data-bs-team="./assets/images/{{bossTeam}}"
+            data-bs-name="{{name}}"><i class="bi bi-info-circle"></i></button>
+    </td>
     <td class="city">{{city}}</td>
     <td class="specificLocation">{{specificLocation}}</td>
     <td class="lastChallenged">{{lastChallenged}}</td>
