@@ -15,7 +15,7 @@ $(function () {
     var $btnLoadClipboard = $('#btnLoadClipboard');
     var $btnLoadModal = $('#btnLoadModal');
     var $btnClear = $('#btnClear');
-    var $weekStart = moment.utc('00:00:00', ['h:m a', 'H:m']).clone().weekday(1);
+    var $weekStart = moment.utc('00:00:00', ['h:m a', 'H:m']).clone().weekday(0);
     var $globalBossesCounter = $('#btnGlobalBosses');
 
     var bossIdMap = {};
@@ -28,6 +28,8 @@ $(function () {
     var bossRegionMap = {};
     var regionFoughtMap = {};
     var regionBossesCountMap = {};
+
+    console.log($weekStart);
 
     var bossListJsonPromise = $.getJSON('assets/boss-list.json', function (result) {
         bossesList = result;
