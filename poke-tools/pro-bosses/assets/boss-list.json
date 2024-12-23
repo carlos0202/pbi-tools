@@ -530,8 +530,8 @@
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "Requires fire pokemon on team",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Saphirr_(boss)",
+                "bossTeam": "sinnoh-1.png"
             },
             {
                 "index": 2,
@@ -542,8 +542,8 @@
                 "cooldownTime": "11 days, 5:00:02",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "TBD",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Professor_Rowan_(boss)",
+                "bossTeam": "sinnoh-2.png"
             },
             {
                 "index": 3,
@@ -554,8 +554,8 @@
                 "cooldownTime": "-",
                 "recommendedTeam": "VS Mega evolutions Team",
                 "notes": "Mega Salamence lead (with stat boosting moves)",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Spectify_(boss)",
+                "bossTeam": "sinnoh-3.png"
             },
             {
                 "index": 4,
@@ -566,8 +566,8 @@
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "TBD",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Link_(boss)",
+                "bossTeam": "sinnoh-4.png"
             },
             {
                 "index": 5,
@@ -578,8 +578,8 @@
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "Eldir has a Magic Guard Focus Sash Alakazam",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Medusa_%26_Eldir_(boss)",
+                "bossTeam": "sinnoh-5.png"
             },
             {
                 "index": 6,
@@ -590,8 +590,8 @@
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "Focus Sash Excadrill",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Letrix_(boss)",
+                "bossTeam": "sinnoh-6.png"
             },
             {
                 "index": 7,
@@ -602,8 +602,8 @@
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "Requires full level 100 team",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Maribela_(boss)",
+                "bossTeam": "sinnoh-7.png"
             },
             {
                 "index": 8,
@@ -614,8 +614,8 @@
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "Dialga and Reshiram have Roar available",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Ash_Westbrook_(boss)",
+                "bossTeam": "sinnoh-8.png"
             },
             {
                 "index": 9,
@@ -626,8 +626,8 @@
                 "cooldownTime": "-",
                 "recommendedTeam": "Default Boss Team",
                 "notes": "TBD",
-                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Erika_(boss)",
-                "bossTeam": "kanto-3.png"
+                "bossUrl": "https://wiki.pokemonrevolution.net/index.php?title=Logan_(boss)",
+                "bossTeam": "sinnoh-9.png"
             }
         ]
     }
