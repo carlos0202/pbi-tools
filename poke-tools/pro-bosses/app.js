@@ -32,6 +32,8 @@ $(function () {
     var clipText = '';
     var loadedFromLocalStorage = false;
     var timeout = null;
+    var timeInfoLoaded = null;
+    var week = null;
 
     console.log($weekStart);
 
@@ -225,24 +227,41 @@ $(function () {
                 return;
             }
 
+            var _timeInfoLoaded = localStorage.getItem('timeInfoLoaded');
+
+            if (_timeInfoLoaded != null)
+                timeInfoLoaded = moment(_timeInfoLoaded).utc();
+            else {
+                loadedFromLocalStorage = false;
+
+                return;
+            }
+
+            var  _week = localStorage.getItem('week');
+
+            if (_week != null)
+                week = parseInt(_week);
+            else {
+                loadedFromLocalStorage = false;
+
+                return;
+            }
+
             loadedFromLocalStorage = true;
         }
     }
 
     function refreshBossInfoCooldown(basicBossesInfo) {
+        var now = moment().utc();
         return basicBossesInfo.map(x => {
-            var hasCooldown = x.cooldown.indexOf('Ready') == -1;
+            
+            var hasCooldown = (x.cooldown.indexOf('Ready') == -1)
+                && x.cooldownTime != null;
 
-            var timeInfo, timeSubstracted, timeFormatted;
-
-            if (hasCooldown) {
-                timeInfo = getTimeLeftInfo(x.cooldown);
-                timeSubstracted = substractSecond(timeInfo);
-                timeFormatted = formatDaysString(timeSubstracted);
-            }
+            var cooldownTime = moment(x.cooldownTime).utc();
 
             return hasCooldown
-                ? Object.assign(x, { cooldown: timeFormatted })
+                ? Object.assign(x, { cooldown: durationAsString(now, cooldownTime) })
                 : x;
         });
     }
@@ -258,9 +277,7 @@ $(function () {
             basicBossesInfo = JSON.parse(_basicBossesInfo);
             loadedFromCache = true;
 
-            basicUpdatedBossInfo = refreshBossInfoCooldown(basicBossesInfo);
-
-            localStorage.setItem('basicBossesInfo', JSON.stringify(basicUpdatedBossInfo));
+            basicBossesInfo = refreshBossInfoCooldown(basicBossesInfo);
 
             return basicBossesInfo;
         }
@@ -274,6 +291,15 @@ $(function () {
         const bossNameStartIndex = headerText.indexOf(bossColumn);
         const lastFoughtStartIndex = headerText.indexOf(lastFoughtColumn);
         const cooldownStartIndex = headerText.indexOf(cooldownColumn);
+        timeInfoLoaded = moment().utc();
+        const _week = timeInfoLoaded.week();
+
+        localStorage.setItem('timeInfoLoaded', timeInfoLoaded.toISOString());
+
+        if (_week != week) {
+            localStorage.setItem('week', _week.toString());
+            $weekStart = moment.utc('00:00:00', ['h:m a', 'H:m']).clone().weekday(0);
+        }
 
         if (bossData.indexOf(headerText) == -1) {
             window.alert('text information to process is not a valid boss list text:\n\n' + bossData);
@@ -292,10 +318,20 @@ $(function () {
         for (const boss of bossListLines) {
             if (boss.indexOf(bossColumn) == 0) continue;
 
+            var _cooldown = boss.substring(cooldownStartIndex).trim();
+            var _add = getTimeLeftInfo(_cooldown);
+            console.log(_cooldown, _add);
+            var _cooldownTime = _add != null
+                ? timeInfoLoaded.clone()
+                    .add({ days: _add.days, hours: _add.hours, minutes: _add.minutes, seconds: _add.seconds })
+                    .toJSON()
+                : null;
+
             basicBossesInfo.push({
                 bossName: boss.substring(bossNameStartIndex, lastFoughtStartIndex).trim(),
                 lastFought: boss.substring(lastFoughtStartIndex, cooldownStartIndex).trim(),
-                cooldown: boss.substring(cooldownStartIndex).trim()
+                cooldown: boss.substring(cooldownStartIndex).trim(),
+                cooldownTime: _cooldownTime
             });
         }
 
@@ -415,29 +451,35 @@ function substractSecond(daysFull) {
 }
 
 function durationAsString(start, end) {
+    if (start.isAfter(end)) return 'Ready';
+
     const duration = moment.duration(moment(end).diff(moment(start)));
 
     //Get Days
     const days = Math.floor(duration.asDays()); // .asDays returns float but we are interested in full days only
-    const daysFormatted = days ? `${days} days ,` : ''; // if no full days then do not display it at all
+    const daysFormatted = days > 0 ? `${days} days , ` : ''; // if no full days then do not display it at all
 
     //Get Hours
     const hours = duration.hours();
-    const hoursFormatted = `${hours}:`;
+    const hoursFormatted = `${hours < 10 ? '0' : ''}${hours}:`;
 
     //Get Minutes
     const minutes = duration.minutes();
-    const minutesFormatted = minutes == 0
+    const minutesFormatted = minutes === 0
         ? '00:'
-        : `${minutes}:`;
+        : minutes < 10
+            ? `0${minutes}:`
+            : `${minutes}:`;
 
     //Get Seconds
     const seconds = duration.seconds();
-    const secondsFormatted = (seconds < 10)
-        ? `0${seconds}`
-        : `${seconds}`;
+    const secondsFormatted = seconds == 0
+        ? '00'
+        : (seconds < 10)
+            ? `0${seconds}`
+            : `${seconds}`;
 
-    return ((days ?? 0) == minutes == seconds == 0)
+    return (days === 0 && minutes === 0 && seconds === 0)
         ? 'Ready'
         : [daysFormatted, hoursFormatted, minutesFormatted, secondsFormatted].join('');
 }
