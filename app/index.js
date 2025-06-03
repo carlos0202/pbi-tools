@@ -1,38 +1,33 @@
-/*jshint strict:false */
+const { app, BrowserWindow } =  require('electron');
 
-(function() {
-    'use strict';
-    // this function is strict...
-}());
+app.commandLine.appendSwitch('ignore-certificate-errors');
 
-// Setting up our app requirements
+console.log('initiating overdrive...');
 
-const express = require('express');
-const app = express();
-const Server = require('http').Server;
-const server = new Server(app);
-const path = require('path');
-const port = 8081;
+const createWindow = () => {
+    console.log('creating browser window...')
+    const win = new BrowserWindow({
+      width: 1024,
+      height: 768,
+      webPreferences: {
+          plugins: true,
+          nodeIntegration: true,
+      }
+    })
+  
+    console.log('loading index.html file...')
+    win.loadFile('views/index.html')
+  }
 
-// Setting up our port
+  app.whenReady().then(() => {
+    createWindow()
+    console.log('app sucessfully loaded...')
 
-server.listen(port, () => console.log("Server at 8081..."));
+    app.on('activate', () => {
+      if (BrowserWindow.getAllWindows().length === 0) createWindow()
+    })
+  })
 
-// Configuiring simple express routes
-// getDir() function is used here along with package.json.pkg.assets
-
-app.use('/', express.static(getDir() + '/views'));
-
-app.get('/', function(req, res) {
-    res.sendFile(getDir() + '/views/index.html');
-});
-
-
-// Using a function to set default app path
-function getDir() {
-    if (process.pkg) {
-        return path.resolve(process.execPath + "/..");
-    } else {
-        return path.join(require.main ? require.main.path : process.cwd());
-    }
-}
+  app.on('window-all-closed', () => {
+    if (process.platform !== 'darwin') app.quit()
+  })

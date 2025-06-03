@@ -26,8 +26,9 @@
         }
 
         var inputText = $inputText.val();
-        
+        console.log(`text to process: ${inputText}`);
         var capturedGroups = inputText.match(taskSplitRegExp);
+        console.log(capturedGroups);
         var taskType = capturedGroups[1].toLowerCase().trim();
         var taskText = capturedGroups[4].trim();
         console.log(capturedGroups);

@@ -1,6 +1,4 @@
 (function ($) {
-    'use strict';
-
     const $actionButton = $('#processInputBtn');
     const $copyBranchName = $('#copyBranchNameToClipboardBtn');
     const $copyPrName = $('#copyPrNameToClipboardBtn');
@@ -28,6 +26,7 @@
         var inputText = $inputText.val();
         
         var capturedGroups = inputText.match(taskSplitRegExp);
+        console.log(capturedGroups);
         var taskType = capturedGroups[1].toLowerCase().trim();
         var taskText = capturedGroups[4].trim();
         console.log(capturedGroups);
