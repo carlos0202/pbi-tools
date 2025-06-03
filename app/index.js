@@ -16,7 +16,7 @@ const port = 8081;
 
 // Setting up our port
 
-server.listen(port, () => console.log("Server at 8081"));
+server.listen(port, () => console.log("Server at 8081..."));
 
 // Configuiring simple express routes
 // getDir() function is used here along with package.json.pkg.assets
