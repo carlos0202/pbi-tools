@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    platform: linux/amd64   # 👈 force x86_64 (required on Apple Silicon)
+    container_name: sqlserver2022
+    restart: unless-stopped
+
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      MSSQL_PID: "Developer"
+      MSSQL_AGENT_ENABLED: "false"
+
+      # 👇 memory tuning (IMPORTANT on macOS)
+      MSSQL_MEMORY_LIMIT_MB: "2048"
+
+    ports:
+      - "1433:1433"
+
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+    # 👇 improves shutdown + responsiveness
+    stop_grace_period: 30s
+
+    # 👇 optional but helpful: limit CPU so it doesn't thrash under emulation
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 3g
+
+volumes:
+  sqlserver_data:
