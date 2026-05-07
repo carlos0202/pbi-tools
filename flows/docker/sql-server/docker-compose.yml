@@ -9,7 +9,7 @@ services:
 
     environment:
       ACCEPT_EULA: "Y"
-      SA_PASSWORD: "YourStrong!Passw0rd"
+      SA_PASSWORD: "YourStrongPassw0rd"
       MSSQL_PID: "Developer"
       MSSQL_AGENT_ENABLED: "false"
 

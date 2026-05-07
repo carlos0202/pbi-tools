@@ -9,10 +9,10 @@
     const $prNameTxt = $('#prName');
 
     const taskSplitRegExp = /(\D+|\s+)(\d+)(:)(.+)/i;
-    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%", "/", "\\", "'", "_"];
+    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%", "/", "\\", "'", "_", ",", "|"];
     const finalCleanupRegExp = /(-)+/g;
     const charSeparator = "-";
-    const branchNameLength = 80;
+    const branchNameLength = 120;
 
     $actionButton.click(function (evt) {
         evt.preventDefault();
@@ -42,9 +42,7 @@
         `);
 
         var prText = taskText.trim();
-        taskText = taskText
-            .substring(taskText.lastIndexOf('|') + 1, taskText.length)
-            .trim();
+        taskText = taskText = prText.split("|").slice(2).join("-").trim();
 
         console.log(`Task id ->${taskId}, task text ->${taskText}`);
 
@@ -54,6 +52,7 @@
         unwantedChars.forEach(charToRemove => {
             normalized = normalized.replaceAll(charToRemove, charSeparator);
         });
+
         var branchNameResult = `feature/${taskId}-${normalized}`;
         console.log(normalized);
         console.log(branchNameResult);
