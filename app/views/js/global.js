@@ -9,7 +9,7 @@
     const $prNameTxt = $('#prName');
 
     const taskSplitRegExp = /(\D+|\s+)(\d+)(:)(.+)/i;
-    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%", "/", "\\", "'", "_", ",", "|"];
+    const unwantedChars = ["{", "}", "[", "]", "(", ")", ".", "@", "!", "^", "*", "&", "+", "=", "#", "%", "/", "\\", "'", "_", ",", "|", ">", "<"];
     const finalCleanupRegExp = /(-)+/g;
     const charSeparator = "-";
     const branchNameLength = 120;
